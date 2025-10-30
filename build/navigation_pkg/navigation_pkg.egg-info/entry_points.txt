@@ -1,0 +1,2 @@
+[console_scripts]
+navigator_node = navigation_pkg.navigator_node:main
