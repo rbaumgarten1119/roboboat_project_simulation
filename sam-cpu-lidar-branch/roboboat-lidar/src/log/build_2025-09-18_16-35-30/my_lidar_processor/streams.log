@@ -1,0 +1,103 @@
+[0.039s] Invoking command in '/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/build/my_lidar_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/my_lidar_processor -DCMAKE_INSTALL_PREFIX=/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/install/my_lidar_processor
+[0.082s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.884s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.971s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.993s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.246s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.250s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.572s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.749s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.837s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.958s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.958s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.958s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.958s]   cmake_policy command to set the policy and suppress this warning.
+[1.958s] 
+[1.958s]   CMake variable FLANN_ROOT is set to:
+[1.958s] 
+[1.958s]     /usr
+[1.958s] 
+[1.958s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.958s]   .cmake module might still use it.
+[1.958s] Call Stack (most recent call first):
+[1.958s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.958s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.958s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.958s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.958s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.958s]   CMakeLists.txt:12 (find_package)
+[1.958s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.959s] [0m
+[1.963s] -- Found flann version 1.9.2
+[3.024s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.027s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[7.362s] -- Checking for module 'libusb-1.0'
+[7.424s] --   Found libusb-1.0, version 1.0.27
+[7.523s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.525s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.679s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.691s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[7.718s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[7.740s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[8.367s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.379s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.249s] -- Found Qhull version 8.0.2
+[10.060s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.039s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.040s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.042s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.043s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.045s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.046s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.047s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[11.048s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[11.049s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.050s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.051s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.053s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.055s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.057s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.058s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.059s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.061s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.062s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.063s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.065s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.067s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[11.067s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[11.068s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[11.070s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.071s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.074s] [33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):
+[11.074s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[11.074s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[11.074s]   command to set the policy and suppress this warning.
+[11.074s] 
+[11.074s]   CMake variable PCL_ROOT is set to:
+[11.074s] 
+[11.074s]     /usr
+[11.074s] 
+[11.074s]   For compatibility, CMake is ignoring the variable.
+[11.074s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.074s] [0m
+[11.291s] -- Configuring done (11.2s)
+[11.312s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[11.313s]   Cannot find source file:
+[11.313s] 
+[11.313s]     src/pcd_publisher.cpp
+[11.313s] 
+[11.313s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[11.314s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[11.314s]   .f95 .f03 .hip .ispc
+[11.314s] 
+[11.314s] [0m
+[11.323s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[11.323s]   No SOURCES given to target: pcd_publisher
+[11.323s] 
+[11.323s] [0m
+[11.323s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[11.347s] Invoked command in '/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/build/my_lidar_processor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/my_lidar_processor -DCMAKE_INSTALL_PREFIX=/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/install/my_lidar_processor

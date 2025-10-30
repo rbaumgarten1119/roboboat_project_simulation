@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000319] (-) JobUnselected: {'identifier': 'my_velodyne_launcher'}
+[0.000394] (my_lidar_processor) JobQueued: {'identifier': 'my_lidar_processor', 'dependencies': OrderedDict()}
+[0.000414] (my_lidar_processor) JobStarted: {'identifier': 'my_lidar_processor'}
+[0.018295] (my_lidar_processor) JobProgress: {'identifier': 'my_lidar_processor', 'progress': 'cmake'}
+[0.021096] (my_lidar_processor) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/my_lidar_processor', '-DCMAKE_INSTALL_PREFIX=/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/install/my_lidar_processor'], 'cwd': '/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/build/my_lidar_processor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sam', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sam', 'OLDPWD': '/home/sam', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2392', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sam/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sam-VirtualBox:@/tmp/.ICE-unix/2352,unix/sam-VirtualBox:/tmp/.ICE-unix/2352', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dba4931f_3196_4c99_9200_9e7ad5334db6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6PB3C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sam/ros2_ws/install/my_py_pkg:/home/sam/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sam/Documents/sam-roboboat/roboboat-lidar/roboboat-lidar/src/build/my_lidar_processor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sam/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/sam/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100404] (-) TimerEvent: {}
+[0.210574] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.210770] (-) TimerEvent: {}
+[0.216615] (my_lidar_processor) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.216746] (my_lidar_processor) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.216796] (my_lidar_processor) StderrLine: {'line': b'  code such as\n'}
+[0.216843] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[0.216889] (my_lidar_processor) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.216932] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[0.216973] (my_lidar_processor) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.218182] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[0.218262] (my_lidar_processor) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.218318] (my_lidar_processor) StderrLine: {'line': b'  line.\n'}
+[0.218362] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.218404] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[0.218446] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.218486] (my_lidar_processor) StderrLine: {'line': b'  cmake_minimum_required() should be called prior to this top-level project()\n'}
+[0.218526] (my_lidar_processor) StderrLine: {'line': b'  call.  Please see the cmake-commands(7) manual for usage documentation of\n'}
+[0.218564] (my_lidar_processor) StderrLine: {'line': b'  both commands.\n'}
+[0.218603] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.218650] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[0.313656] (-) TimerEvent: {}
+[0.420003] (-) TimerEvent: {}
+[0.525279] (-) TimerEvent: {}
+[0.632988] (-) TimerEvent: {}
+[0.736927] (-) TimerEvent: {}
+[0.840372] (-) TimerEvent: {}
+[0.945545] (-) TimerEvent: {}
+[1.054341] (-) TimerEvent: {}
+[1.168611] (-) TimerEvent: {}
+[1.288420] (-) TimerEvent: {}
+[1.390485] (-) TimerEvent: {}
+[1.509441] (-) TimerEvent: {}
+[1.554024] (my_lidar_processor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.615277] (-) TimerEvent: {}
+[1.727300] (-) TimerEvent: {}
+[1.840805] (-) TimerEvent: {}
+[1.948095] (-) TimerEvent: {}
+[2.050441] (-) TimerEvent: {}
+[2.152505] (-) TimerEvent: {}
+[2.256626] (-) TimerEvent: {}
+[2.361504] (-) TimerEvent: {}
+[2.466530] (-) TimerEvent: {}
+[2.574524] (-) TimerEvent: {}
+[2.675919] (-) TimerEvent: {}
+[2.782631] (-) TimerEvent: {}
+[2.887402] (-) TimerEvent: {}
+[2.907895] (my_lidar_processor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.989934] (-) TimerEvent: {}
+[3.067340] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.090347] (-) TimerEvent: {}
+[3.193926] (-) TimerEvent: {}
+[3.297969] (-) TimerEvent: {}
+[3.409867] (-) TimerEvent: {}
+[3.514685] (-) TimerEvent: {}
+[3.622372] (-) TimerEvent: {}
+[3.724539] (-) TimerEvent: {}
+[3.844571] (-) TimerEvent: {}
+[3.912888] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.947837] (-) TimerEvent: {}
+[4.001569] (my_lidar_processor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.001754] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.062898] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.065880] (-) TimerEvent: {}
+[4.192917] (-) TimerEvent: {}
+[4.245537] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.298494] (-) TimerEvent: {}
+[4.422253] (-) TimerEvent: {}
+[4.532913] (-) TimerEvent: {}
+[4.645385] (-) TimerEvent: {}
+[4.746281] (-) TimerEvent: {}
+[4.865319] (-) TimerEvent: {}
+[4.983488] (-) TimerEvent: {}
+[5.096214] (-) TimerEvent: {}
+[5.198284] (-) TimerEvent: {}
+[5.299210] (-) TimerEvent: {}
+[5.402514] (-) TimerEvent: {}
+[5.442570] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.489135] (my_lidar_processor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.489387] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.492462] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.504050] (-) TimerEvent: {}
+[5.606061] (-) TimerEvent: {}
+[5.665029] (my_lidar_processor) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.706649] (-) TimerEvent: {}
+[5.807303] (-) TimerEvent: {}
+[5.908188] (-) TimerEvent: {}
+[5.981485] (my_lidar_processor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.009099] (-) TimerEvent: {}
+[6.109571] (-) TimerEvent: {}
+[6.177425] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[6.179443] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.179550] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.180340] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.180473] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.180591] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.181026] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.181217] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.181336] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.181510] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.181641] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.181756] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.184129] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.184309] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.184372] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[6.184427] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.184476] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.184524] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.184572] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.184620] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.184668] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[6.184717] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.184764] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.184816] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.185398] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.185500] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.185579] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.185650] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.185720] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.185785] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.185845] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.185903] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.185960] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.186038] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.186101] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[6.186159] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.186217] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.186279] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.186338] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.186397] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.209866] (-) TimerEvent: {}
+[6.213087] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[6.213415] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.213481] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.213546] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.213593] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.213635] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.213678] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.213719] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.219018] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.219100] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.219149] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.219192] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.219249] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.219290] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.219330] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[6.219370] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.219585] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.219630] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.219782] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.219839] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.220002] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.220123] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.220189] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[6.220235] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.220284] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.220435] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.220483] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.220526] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.220568] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.220609] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.220649] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.222819] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.222910] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.222967] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.223012] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.223054] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.223093] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[6.223132] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.223170] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.223395] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.223464] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.223508] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.223549] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.223589] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.312051] (-) TimerEvent: {}
+[6.414833] (-) TimerEvent: {}
+[6.429010] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[6.430635] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.430696] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.430744] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.430786] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.430828] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.430871] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.430912] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.434705] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.434826] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.434877] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.434938] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.434980] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.435021] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.436315] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[6.436374] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.436418] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[6.436461] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.436501] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[6.436542] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.436581] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.436630] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.436669] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.436706] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.436744] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.436782] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.436820] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[6.436859] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[6.436897] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[6.445330] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.445394] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.445439] (my_lidar_processor) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[6.445483] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.445525] (my_lidar_processor) StderrLine: {'line': b'    "TRUE"\n'}
+[6.445564] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.445602] (my_lidar_processor) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[6.445650] (my_lidar_processor) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[6.445688] (my_lidar_processor) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[6.445726] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.445764] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.446007] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[6.446057] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[6.446099] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[6.446141] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.446187] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[6.446226] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.446265] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.446304] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.446342] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.446379] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.446417] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.446455] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.515239] (-) TimerEvent: {}
+[6.617316] (-) TimerEvent: {}
+[6.720807] (-) TimerEvent: {}
+[6.730108] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[6.733279] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[6.733376] (my_lidar_processor) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[6.733470] (my_lidar_processor) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[6.733557] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.733640] (my_lidar_processor) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[6.755106] (my_lidar_processor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.755274] (my_lidar_processor) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[6.755333] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.755379] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[6.755424] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[6.755465] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.755507] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[6.755560] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.755601] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.755641] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.755680] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.755719] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.756612] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.756682] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.756727] (my_lidar_processor) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[6.756769] (my_lidar_processor) StderrLine: {'line': b'  if given arguments:\n'}
+[6.756810] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.756852] (my_lidar_processor) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[6.756892] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.756932] (my_lidar_processor) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[6.760746] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.761217] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[6.761296] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[6.761343] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.761386] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[6.761428] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.761467] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.761506] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.761557] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.761596] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[6.761635] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.761676] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.761714] (my_lidar_processor) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[6.761752] (my_lidar_processor) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[6.761793] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.761833] (my_lidar_processor) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.28)\n'}
+[6.761871] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.761909] (my_lidar_processor) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[6.761948] (my_lidar_processor) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[6.761988] (my_lidar_processor) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[6.762026] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[6.762066] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[6.774454] (my_lidar_processor) CommandEnded: {'returncode': 1}
+[6.776173] (my_lidar_processor) JobEnded: {'identifier': 'my_lidar_processor', 'rc': 1}
+[6.789330] (-) EventReactorShutdown: {}
