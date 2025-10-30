@@ -1,0 +1,2 @@
+[console_scripts]
+roboboat_logger = lidar_csv_logger.roboboat_logger:main

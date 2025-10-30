@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/gazebo_lidar_bridge.launch.py
+lidar_csv_logger/__init__.py
+lidar_csv_logger/lidar_csv_logger_node.py
+lidar_csv_logger/roboboat_logger.py
+lidar_csv_logger.egg-info/PKG-INFO
+lidar_csv_logger.egg-info/SOURCES.txt
+lidar_csv_logger.egg-info/dependency_links.txt
+lidar_csv_logger.egg-info/entry_points.txt
+lidar_csv_logger.egg-info/requires.txt
+lidar_csv_logger.egg-info/top_level.txt
+lidar_csv_logger.egg-info/zip-safe
+resource/lidar_csv_logger
