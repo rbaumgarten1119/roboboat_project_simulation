@@ -1,0 +1,22 @@
+/lidar_processor_3d_node:
+  ros__parameters:
+    # topics (remappable in launch file if needed)
+    input_topic: "/velodyne_points"
+    output_topic: "/velodyne_points_filtered"
+
+    # frame
+    frame_id: "velodyne"
+
+    # VoxelGrid downsample
+    voxel_leaf_size: 0.10   # meters
+
+    # PassThrough (z-axis crop)
+    passthrough_z_min: -1.0
+    passthrough_z_max: 2.0
+
+    # Statistical Outlier Removal (declared but not used yet in code)
+    sor_mean_k: 50
+    sor_stddev_mul: 1.0
+
+    # ROS2 QoS queue size
+    queue_size: 10
