@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (-) JobUnselected: {'identifier': 'my_velodyne_launcher'}
+[0.000425] (my_lidar_processor) JobQueued: {'identifier': 'my_lidar_processor', 'dependencies': OrderedDict()}
+[0.000444] (my_lidar_processor) JobStarted: {'identifier': 'my_lidar_processor'}
+[0.006766] (my_lidar_processor) JobProgress: {'identifier': 'my_lidar_processor', 'progress': 'cmake'}
+[0.007108] (my_lidar_processor) Command: {'cmd': ['/usr/bin/cmake', '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/src/my_lidar_processor', '-DCMAKE_INSTALL_PREFIX=/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor'], 'cwd': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3142-1-wsot_TIME87931', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'phoenixautonomy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/phoenixautonomy', 'OLDPWD': '/home/phoenixautonomy', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2702', 'SYSTEMD_EXEC_PID': '3142', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4034', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'phoenixautonomy', 'JOURNAL_STREAM': '8:36952', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'phoenixautonomy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wsot:@/tmp/.ICE-unix/3109,unix/wsot:/tmp/.ICE-unix/3109', 'INVOCATION_ID': '49c492c285704ce9b666fa1322f6b83f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8f0e9a1-d67d-4c42-a211-d3922653a02e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100038] (-) TimerEvent: {}
+[0.168281] (my_lidar_processor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200167] (-) TimerEvent: {}
+[0.268314] (my_lidar_processor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.284188] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300268] (-) TimerEvent: {}
+[0.400710] (-) TimerEvent: {}
+[0.449415] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.464620] (my_lidar_processor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.465163] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.465764] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.476792] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500813] (-) TimerEvent: {}
+[0.601140] (-) TimerEvent: {}
+[0.636872] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.642328] (my_lidar_processor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.642485] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.642740] (my_lidar_processor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.647873] (my_lidar_processor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701203] (-) TimerEvent: {}
+[0.736389] (my_lidar_processor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801299] (-) TimerEvent: {}
+[0.812238] (my_lidar_processor) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.850570] (my_lidar_processor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.859676] (my_lidar_processor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.871632] (my_lidar_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.884204] (my_lidar_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901439] (-) TimerEvent: {}
+[0.938924] (my_lidar_processor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.941384] (my_lidar_processor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001665] (-) TimerEvent: {}
+[1.062335] (my_lidar_processor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.088334] (my_lidar_processor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.101739] (-) TimerEvent: {}
+[1.104621] (my_lidar_processor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.155533] (my_lidar_processor) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.195444] (my_lidar_processor) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[1.201834] (-) TimerEvent: {}
+[1.249180] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.249398] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.249433] (my_lidar_processor) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.249460] (my_lidar_processor) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.249486] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[1.249512] (my_lidar_processor) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.249539] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[1.249563] (my_lidar_processor) StderrLine: {'line': b'    /usr\n'}
+[1.249586] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[1.249610] (my_lidar_processor) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.249635] (my_lidar_processor) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.249660] (my_lidar_processor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.249684] (my_lidar_processor) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.249707] (my_lidar_processor) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.249733] (my_lidar_processor) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.249757] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.249780] (my_lidar_processor) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.249803] (my_lidar_processor) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[1.249826] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.249850] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[1.250080] (my_lidar_processor) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.302010] (-) TimerEvent: {}
+[1.402455] (-) TimerEvent: {}
+[1.502751] (-) TimerEvent: {}
+[1.603063] (-) TimerEvent: {}
+[1.671928] (my_lidar_processor) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.672048] (my_lidar_processor) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.703171] (-) TimerEvent: {}
+[1.803406] (-) TimerEvent: {}
+[1.903836] (-) TimerEvent: {}
+[2.004334] (-) TimerEvent: {}
+[2.104721] (-) TimerEvent: {}
+[2.204949] (-) TimerEvent: {}
+[2.305192] (-) TimerEvent: {}
+[2.405502] (-) TimerEvent: {}
+[2.505852] (-) TimerEvent: {}
+[2.606226] (-) TimerEvent: {}
+[2.706544] (-) TimerEvent: {}
+[2.807007] (-) TimerEvent: {}
+[2.907323] (-) TimerEvent: {}
+[3.007848] (-) TimerEvent: {}
+[3.108372] (-) TimerEvent: {}
+[3.208847] (-) TimerEvent: {}
+[3.309350] (-) TimerEvent: {}
+[3.409747] (-) TimerEvent: {}
+[3.509962] (-) TimerEvent: {}
+[3.514975] (my_lidar_processor) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.554488] (my_lidar_processor) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[3.610058] (-) TimerEvent: {}
+[3.661602] (my_lidar_processor) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.665213] (my_lidar_processor) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.710158] (-) TimerEvent: {}
+[3.810450] (-) TimerEvent: {}
+[3.832367] (my_lidar_processor) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.840125] (my_lidar_processor) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[3.850381] (my_lidar_processor) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[3.860198] (my_lidar_processor) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[3.910555] (-) TimerEvent: {}
+[4.010773] (-) TimerEvent: {}
+[4.110932] (-) TimerEvent: {}
+[4.152049] (my_lidar_processor) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.156316] (my_lidar_processor) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.211067] (-) TimerEvent: {}
+[4.311342] (-) TimerEvent: {}
+[4.411533] (-) TimerEvent: {}
+[4.444989] (my_lidar_processor) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.511646] (-) TimerEvent: {}
+[4.611932] (-) TimerEvent: {}
+[4.712218] (-) TimerEvent: {}
+[4.732367] (my_lidar_processor) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.812379] (-) TimerEvent: {}
+[4.912809] (-) TimerEvent: {}
+[5.009042] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.009751] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.010406] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.011020] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.011664] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.012181] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.012329] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[5.012534] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[5.012889] (-) TimerEvent: {}
+[5.013193] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.013883] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.014563] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.015149] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.015865] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.016546] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.017198] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.017828] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.018522] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.019149] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.019854] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.020694] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.021187] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[5.021357] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[5.030450] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[5.031345] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.031992] (my_lidar_processor) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.033322] (my_lidar_processor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):\n'}
+[5.033354] (my_lidar_processor) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[5.033381] (my_lidar_processor) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[5.033405] (my_lidar_processor) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[5.033431] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[5.033457] (my_lidar_processor) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[5.033483] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[5.033507] (my_lidar_processor) StderrLine: {'line': b'    /usr\n'}
+[5.033532] (my_lidar_processor) StderrLine: {'line': b'\n'}
+[5.033557] (my_lidar_processor) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[5.033582] (my_lidar_processor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.033606] (my_lidar_processor) StderrLine: {'line': b'\x1b[0m\n'}
+[5.113039] (-) TimerEvent: {}
+[5.118406] (my_lidar_processor) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[5.170619] (my_lidar_processor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.174659] (my_lidar_processor) StdoutLine: {'line': b'-- Build files have been written to: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor\n'}
+[5.185066] (my_lidar_processor) CommandEnded: {'returncode': 0}
+[5.185904] (my_lidar_processor) JobProgress: {'identifier': 'my_lidar_processor', 'progress': 'build'}
+[5.185915] (my_lidar_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', '--', '-j24', '-l24'], 'cwd': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3142-1-wsot_TIME87931', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'phoenixautonomy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/phoenixautonomy', 'OLDPWD': '/home/phoenixautonomy', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2702', 'SYSTEMD_EXEC_PID': '3142', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4034', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'phoenixautonomy', 'JOURNAL_STREAM': '8:36952', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'phoenixautonomy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wsot:@/tmp/.ICE-unix/3109,unix/wsot:/tmp/.ICE-unix/3109', 'INVOCATION_ID': '49c492c285704ce9b666fa1322f6b83f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8f0e9a1-d67d-4c42-a211-d3922653a02e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.213229] (-) TimerEvent: {}
+[5.257494] (my_lidar_processor) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lidar_processor_3d_node.dir/src/lidar_processor_3d_node.cpp.o\x1b[0m\n'}
+[5.259310] (my_lidar_processor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_publisher.dir/src/pcd_publisher.cpp.o\x1b[0m\n'}
+[5.313305] (-) TimerEvent: {}
+[5.413494] (-) TimerEvent: {}
+[5.513666] (-) TimerEvent: {}
+[5.613880] (-) TimerEvent: {}
+[5.714179] (-) TimerEvent: {}
+[5.814398] (-) TimerEvent: {}
+[5.914587] (-) TimerEvent: {}
+[6.014749] (-) TimerEvent: {}
+[6.114900] (-) TimerEvent: {}
+[6.215040] (-) TimerEvent: {}
+[6.315137] (-) TimerEvent: {}
+[6.415250] (-) TimerEvent: {}
+[6.515358] (-) TimerEvent: {}
+[6.615485] (-) TimerEvent: {}
+[6.715613] (-) TimerEvent: {}
+[6.815742] (-) TimerEvent: {}
+[6.915887] (-) TimerEvent: {}
+[7.016042] (-) TimerEvent: {}
+[7.116229] (-) TimerEvent: {}
+[7.216403] (-) TimerEvent: {}
+[7.316594] (-) TimerEvent: {}
+[7.416746] (-) TimerEvent: {}
+[7.516887] (-) TimerEvent: {}
+[7.617043] (-) TimerEvent: {}
+[7.717221] (-) TimerEvent: {}
+[7.817401] (-) TimerEvent: {}
+[7.917594] (-) TimerEvent: {}
+[8.017763] (-) TimerEvent: {}
+[8.117922] (-) TimerEvent: {}
+[8.218085] (-) TimerEvent: {}
+[8.318251] (-) TimerEvent: {}
+[8.418476] (-) TimerEvent: {}
+[8.518668] (-) TimerEvent: {}
+[8.618816] (-) TimerEvent: {}
+[8.718961] (-) TimerEvent: {}
+[8.819130] (-) TimerEvent: {}
+[8.919271] (-) TimerEvent: {}
+[9.019441] (-) TimerEvent: {}
+[9.034264] (my_lidar_processor) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pcd_publisher\x1b[0m\n'}
+[9.119542] (-) TimerEvent: {}
+[9.219730] (-) TimerEvent: {}
+[9.319890] (-) TimerEvent: {}
+[9.420033] (-) TimerEvent: {}
+[9.445055] (my_lidar_processor) StdoutLine: {'line': b'[ 75%] Built target pcd_publisher\n'}
+[9.520228] (-) TimerEvent: {}
+[9.620479] (-) TimerEvent: {}
+[9.720758] (-) TimerEvent: {}
+[9.821031] (-) TimerEvent: {}
+[9.921282] (-) TimerEvent: {}
+[10.021548] (-) TimerEvent: {}
+[10.121799] (-) TimerEvent: {}
+[10.222046] (-) TimerEvent: {}
+[10.322298] (-) TimerEvent: {}
+[10.422535] (-) TimerEvent: {}
+[10.522793] (-) TimerEvent: {}
+[10.623044] (-) TimerEvent: {}
+[10.723304] (-) TimerEvent: {}
+[10.823588] (-) TimerEvent: {}
+[10.923890] (-) TimerEvent: {}
+[11.024207] (-) TimerEvent: {}
+[11.086832] (my_lidar_processor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_processor_3d_node\x1b[0m\n'}
+[11.124398] (-) TimerEvent: {}
+[11.224754] (-) TimerEvent: {}
+[11.325094] (-) TimerEvent: {}
+[11.425559] (-) TimerEvent: {}
+[11.525808] (-) TimerEvent: {}
+[11.626058] (-) TimerEvent: {}
+[11.726187] (my_lidar_processor) StdoutLine: {'line': b'[100%] Built target lidar_processor_3d_node\n'}
+[11.726318] (-) TimerEvent: {}
+[11.736808] (my_lidar_processor) CommandEnded: {'returncode': 0}
+[11.737223] (my_lidar_processor) JobProgress: {'identifier': 'my_lidar_processor', 'progress': 'install'}
+[11.744010] (my_lidar_processor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor'], 'cwd': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3142-1-wsot_TIME87931', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'phoenixautonomy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/phoenixautonomy', 'OLDPWD': '/home/phoenixautonomy', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2702', 'SYSTEMD_EXEC_PID': '3142', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4034', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'phoenixautonomy', 'JOURNAL_STREAM': '8:36952', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'phoenixautonomy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wsot:@/tmp/.ICE-unix/3109,unix/wsot:/tmp/.ICE-unix/3109', 'INVOCATION_ID': '49c492c285704ce9b666fa1322f6b83f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8f0e9a1-d67d-4c42-a211-d3922653a02e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1002/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/build/my_lidar_processor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.753037] (my_lidar_processor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.753225] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/lib/my_lidar_processor/lidar_processor_3d_node\n'}
+[11.757868] (my_lidar_processor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/lib/my_lidar_processor/lidar_processor_3d_node" to ""\n'}
+[11.757951] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/lib/my_lidar_processor/pcd_publisher\n'}
+[11.759063] (my_lidar_processor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/lib/my_lidar_processor/pcd_publisher" to ""\n'}
+[11.759136] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/launch\n'}
+[11.759240] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/launch/start_processing_3d.launch.py\n'}
+[11.759402] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/config\n'}
+[11.759541] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/config/processor_params.yaml\n'}
+[11.759748] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/ament_index/resource_index/package_run_dependencies/my_lidar_processor\n'}
+[11.759851] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/ament_index/resource_index/parent_prefix_path/my_lidar_processor\n'}
+[11.759923] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/environment/ament_prefix_path.sh\n'}
+[11.759996] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/environment/ament_prefix_path.dsv\n'}
+[11.760067] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/environment/path.sh\n'}
+[11.760141] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/environment/path.dsv\n'}
+[11.760193] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/local_setup.bash\n'}
+[11.760261] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/local_setup.sh\n'}
+[11.760330] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/local_setup.zsh\n'}
+[11.760379] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/local_setup.dsv\n'}
+[11.760441] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/package.dsv\n'}
+[11.760497] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/ament_index/resource_index/packages/my_lidar_processor\n'}
+[11.760561] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/cmake/my_lidar_processorConfig.cmake\n'}
+[11.760619] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/cmake/my_lidar_processorConfig-version.cmake\n'}
+[11.760679] (my_lidar_processor) StdoutLine: {'line': b'-- Installing: /home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/install/my_lidar_processor/share/my_lidar_processor/package.xml\n'}
+[11.761802] (my_lidar_processor) CommandEnded: {'returncode': 0}
+[11.784316] (my_lidar_processor) JobEnded: {'identifier': 'my_lidar_processor', 'rc': 0}
+[11.784822] (-) EventReactorShutdown: {}
