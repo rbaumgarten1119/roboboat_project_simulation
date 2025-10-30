@@ -1,0 +1,4 @@
+source;share/my_velodyne_launcher/hook/pythonpath.dsv
+source;share/my_velodyne_launcher/hook/pythonpath.sh
+source;share/my_velodyne_launcher/hook/ament_prefix_path.dsv
+source;share/my_velodyne_launcher/hook/ament_prefix_path.sh

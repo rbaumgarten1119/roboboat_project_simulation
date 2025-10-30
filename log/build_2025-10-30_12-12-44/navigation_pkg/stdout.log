@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating navigation_pkg.egg-info
+writing navigation_pkg.egg-info/PKG-INFO
+writing dependency_links to navigation_pkg.egg-info/dependency_links.txt
+writing entry points to navigation_pkg.egg-info/entry_points.txt
+writing requirements to navigation_pkg.egg-info/requires.txt
+writing top-level names to navigation_pkg.egg-info/top_level.txt
+writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+reading manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/phoenixautonomy/ros2_ws/install/navigation_pkg/lib/python3.12/site-packages/navigation-pkg.egg-link (link to .)
+Installing navigator_node script to /home/phoenixautonomy/ros2_ws/install/navigation_pkg/lib/navigation_pkg
+
+Installed /home/phoenixautonomy/ros2_ws/build/navigation_pkg
+running symlink_data
+creating /home/phoenixautonomy/ros2_ws/install/navigation_pkg/share/ament_index
+creating /home/phoenixautonomy/ros2_ws/install/navigation_pkg/share/ament_index/resource_index
+creating /home/phoenixautonomy/ros2_ws/install/navigation_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/phoenixautonomy/ros2_ws/build/navigation_pkg/resource/navigation_pkg -> /home/phoenixautonomy/ros2_ws/install/navigation_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/phoenixautonomy/ros2_ws/build/navigation_pkg/package.xml -> /home/phoenixautonomy/ros2_ws/install/navigation_pkg/share/navigation_pkg

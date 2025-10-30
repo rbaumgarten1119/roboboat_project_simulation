@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/PKG-INFO
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/SOURCES.txt
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/dependency_links.txt
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/requires.txt
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/top_level.txt
+../../../../build/my_velodyne_launcher/my_velodyne_launcher.egg-info/zip-safe
+launch/vlp16_launch.py
+my_velodyne_launcher/__init__.py
+resource/my_velodyne_launcher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
