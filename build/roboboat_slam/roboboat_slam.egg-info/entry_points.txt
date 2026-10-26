@@ -1,0 +1,2 @@
+[console_scripts]
+thruster_to_odom = roboboat_slam.thruster_to_odom:main

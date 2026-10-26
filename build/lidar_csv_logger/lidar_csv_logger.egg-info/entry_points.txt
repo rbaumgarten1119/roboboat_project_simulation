@@ -1,2 +1,3 @@
 [console_scripts]
 roboboat_logger = lidar_csv_logger.roboboat_logger:main
+thruster_control = lidar_csv_logger.thruster_control:main

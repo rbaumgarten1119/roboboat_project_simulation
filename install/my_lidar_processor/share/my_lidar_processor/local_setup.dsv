@@ -1,2 +1,1 @@
-source;share/my_lidar_processor/environment/ament_prefix_path.sh
-source;share/my_lidar_processor/environment/path.sh
+/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/ament_cmake_environment_hooks/local_setup.dsv

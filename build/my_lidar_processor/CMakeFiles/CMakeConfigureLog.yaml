@@ -7,7 +7,7 @@ events:
       - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 6.8.0-85-generic - x86_64
+      The system is: Linux - 6.8.0-87-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9610b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9610b.dir/build.make CMakeFiles/cmTC_9610b.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE'
-        Building C object CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79146/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_79146.dir/build.make CMakeFiles/cmTC_79146.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN'
+        Building C object CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9610b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDqzmhT.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_79146.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAdosym.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -105,15 +105,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o /tmp/ccDqzmhT.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/'
+         as -v --64 -o CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o /tmp/ccAdosym.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_9610b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9610b.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -o cmTC_9610b 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_79146
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79146.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -o cmTC_79146 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -126,10 +126,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9610b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9610b.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Cc4Vm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9610b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9610b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9610b.'
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79146' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79146.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHVPLWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_79146 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79146' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79146.'
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN'
         
       exitCode: 0
   -
@@ -163,13 +163,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE']
+        ignore line: [Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9610b/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9610b.dir/build.make CMakeFiles/cmTC_9610b.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6212OE']
-        ignore line: [Building C object CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79146/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_79146.dir/build.make CMakeFiles/cmTC_79146.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-TntkRN']
+        ignore line: [Building C object CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -179,8 +179,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9610b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDqzmhT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_79146.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAdosym.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -197,15 +197,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o /tmp/ccDqzmhT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o /tmp/ccAdosym.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_9610b]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9610b.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -o cmTC_9610b ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_79146]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79146.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -o cmTC_79146 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -218,13 +218,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9610b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9610b.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Cc4Vm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9610b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_79146' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79146.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHVPLWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_79146 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc1Cc4Vm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccHVPLWP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -242,7 +242,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9610b] ==> ignore
+          arg [cmTC_79146] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -254,7 +254,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_9610b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_79146.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -294,8 +294,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -304,13 +304,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee3c2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ee3c2.dir/build.make CMakeFiles/cmTC_ee3c2.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6'
-        Building CXX object CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b29f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4b29f.dir/build.make CMakeFiles/cmTC_4b29f.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc'
+        Building CXX object CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -320,8 +320,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ee3c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccv1AI2f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4b29f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmU38Vd.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -342,15 +342,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv1AI2f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmU38Vd.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ee3c2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee3c2.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee3c2 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4b29f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b29f.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b29f 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -363,10 +363,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee3c2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ee3c2.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYl6fIB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ee3c2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee3c2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ee3c2.'
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b29f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b29f.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5m12ko.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b29f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b29f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b29f.'
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc'
         
       exitCode: 0
   -
@@ -406,13 +406,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6']
+        ignore line: [Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee3c2/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ee3c2.dir/build.make CMakeFiles/cmTC_ee3c2.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-Bt16T6']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b29f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_4b29f.dir/build.make CMakeFiles/cmTC_4b29f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-v5nWZc']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -422,8 +422,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ee3c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccv1AI2f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4b29f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmU38Vd.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -444,15 +444,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv1AI2f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmU38Vd.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ee3c2]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee3c2.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee3c2 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4b29f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b29f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b29f ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -465,13 +465,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee3c2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ee3c2.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYl6fIB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ee3c2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b29f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4b29f.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5m12ko.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b29f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccYl6fIB.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc5m12ko.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -489,7 +489,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ee3c2] ==> ignore
+          arg [cmTC_4b29f] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -501,7 +501,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_ee3c2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_4b29f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -552,11 +552,11 @@ events:
       stdout: |
         Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5fc22/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5fc22.dir/build.make CMakeFiles/cmTC_5fc22.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9710/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e9710.dir/build.make CMakeFiles/cmTC_e9710.dir/build
         gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
-        Building C object CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Building C object CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -566,8 +566,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5fc22.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_5fc22.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrqKzbp.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e9710.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_e9710.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbkjjuA.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -584,15 +584,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5fc22.dir/'
-         as -v --64 -o CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o /tmp/ccrqKzbp.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e9710.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o /tmp/ccbkjjuA.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.'
-        Linking C executable cmTC_5fc22
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fc22.dir/link.txt --verbose=1
-        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o -o cmTC_5fc22  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_e9710
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9710.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o -o cmTC_e9710  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -606,9 +606,9 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5fc22' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5fc22.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAR0Grt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5fc22 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_5fc22.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5fc22' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5fc22.'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_e9710' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e9710.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEHNexi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e9710 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e9710.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_e9710' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e9710.'
         gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -636,11 +636,11 @@ events:
       stdout: |
         Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e256d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e256d.dir/build.make CMakeFiles/cmTC_e256d.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85763/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_85763.dir/build.make CMakeFiles/cmTC_85763.dir/build
         gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -fopenmp -v -std=gnu++17 -o CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Building CXX object CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -std=gnu++17 -o CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -650,8 +650,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e256d.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_e256d.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccTO0SkA.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_85763.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_85763.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccn8eaeA.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -672,15 +672,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e256d.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o /tmp/ccTO0SkA.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_85763.dir/'
+         as -v --64 -o CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o /tmp/ccn8eaeA.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.'
-        Linking CXX executable cmTC_e256d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e256d.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o -o cmTC_e256d  -v 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_85763
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85763.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o -o cmTC_85763  -v 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -694,9 +694,9 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_e256d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e256d.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu4jBWm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e256d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e256d.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_e256d' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e256d.'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_85763' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_85763.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrBTG2v.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_85763 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_85763.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_85763' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_85763.'
         gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -724,14 +724,14 @@ events:
       stdout: |
         Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c13e1/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c13e1.dir/build.make CMakeFiles/cmTC_c13e1.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5620/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f5620.dir/build.make CMakeFiles/cmTC_f5620.dir/build
         gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_c13e1.dir/OpenMPCheckVersion.cpp.o
-        /usr/bin/c++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_c13e1.dir/OpenMPCheckVersion.cpp.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_c13e1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13e1.dir/link.txt --verbose=1
-        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_c13e1.dir/OpenMPCheckVersion.cpp.o -o cmTC_c13e1 
+        Building CXX object CMakeFiles/cmTC_f5620.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_f5620.dir/OpenMPCheckVersion.cpp.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_f5620
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5620.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_f5620.dir/OpenMPCheckVersion.cpp.o -o cmTC_f5620 
         gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -751,8 +751,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -762,17 +762,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11696/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_11696.dir/build.make CMakeFiles/cmTC_11696.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H'
-        Building C object CMakeFiles/cmTC_11696.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_11696.dir/src.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H/src.c
-        Linking C executable cmTC_11696
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11696.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_11696.dir/src.c.o -o cmTC_11696 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-nIZj5H'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aeb2e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aeb2e.dir/build.make CMakeFiles/cmTC_aeb2e.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0'
+        Building C object CMakeFiles/cmTC_aeb2e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aeb2e.dir/src.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0/src.c
+        Linking C executable cmTC_aeb2e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb2e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_aeb2e.dir/src.c.o -o cmTC_aeb2e 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-OqQxc0'
         
       exitCode: 0
   -
@@ -791,8 +791,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -802,17 +802,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5957/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a5957.dir/build.make CMakeFiles/cmTC_a5957.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi'
-        Building C object CMakeFiles/cmTC_a5957.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a5957.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi/test_mpi.c
-        Linking C executable cmTC_a5957
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5957.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a5957.dir/test_mpi.c.o -o cmTC_a5957  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-p2j1Hi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1e548/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1e548.dir/build.make CMakeFiles/cmTC_1e548.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c'
+        Building C object CMakeFiles/cmTC_1e548.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1e548.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c/test_mpi.c
+        Linking C executable cmTC_1e548
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e548.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1e548.dir/test_mpi.c.o -o cmTC_1e548  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3v3u8c'
         
       exitCode: 0
   -
@@ -829,8 +829,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -840,17 +840,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7687/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f7687.dir/build.make CMakeFiles/cmTC_f7687.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59'
-        Building C object CMakeFiles/cmTC_f7687.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_f7687.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59/CheckFunctionExists.c
-        Linking C executable cmTC_f7687
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7687.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_f7687.dir/CheckFunctionExists.c.o -o cmTC_f7687  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bgLt59'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8da07/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8da07.dir/build.make CMakeFiles/cmTC_8da07.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A'
+        Building C object CMakeFiles/cmTC_8da07.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_8da07.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A/CheckFunctionExists.c
+        Linking C executable cmTC_8da07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8da07.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_8da07.dir/CheckFunctionExists.c.o -o cmTC_8da07  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-XANl0A'
         
       exitCode: 0
   -
@@ -867,8 +867,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -878,17 +878,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b85dc/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b85dc.dir/build.make CMakeFiles/cmTC_b85dc.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF'
-        Building C object CMakeFiles/cmTC_b85dc.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_b85dc.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF/CheckFunctionExists.c
-        Linking C executable cmTC_b85dc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b85dc.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_b85dc.dir/CheckFunctionExists.c.o -o cmTC_b85dc 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-45S5lF'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e857c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e857c.dir/build.make CMakeFiles/cmTC_e857c.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5'
+        Building C object CMakeFiles/cmTC_e857c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_e857c.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5/CheckFunctionExists.c
+        Linking C executable cmTC_e857c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e857c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_e857c.dir/CheckFunctionExists.c.o -o cmTC_e857c 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HutNB5'
         
       exitCode: 0
   -
@@ -905,8 +905,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -916,17 +916,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e078/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3e078.dir/build.make CMakeFiles/cmTC_3e078.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb'
-        Building C object CMakeFiles/cmTC_3e078.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_3e078.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb/CheckFunctionExists.c
-        Linking C executable cmTC_3e078
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e078.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_3e078.dir/CheckFunctionExists.c.o -o cmTC_3e078 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-pE81zb'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c54b2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c54b2.dir/build.make CMakeFiles/cmTC_c54b2.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h'
+        Building C object CMakeFiles/cmTC_c54b2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_c54b2.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h/CheckFunctionExists.c
+        Linking C executable cmTC_c54b2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c54b2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c54b2.dir/CheckFunctionExists.c.o -o cmTC_c54b2 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-uang0h'
         
       exitCode: 0
   -
@@ -943,8 +943,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -954,17 +954,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f307d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f307d.dir/build.make CMakeFiles/cmTC_f307d.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC'
-        Building C object CMakeFiles/cmTC_f307d.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_f307d.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC/CheckFunctionExists.c
-        Linking C executable cmTC_f307d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f307d.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_f307d.dir/CheckFunctionExists.c.o -o cmTC_f307d 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-QO1LoC'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8169/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e8169.dir/build.make CMakeFiles/cmTC_e8169.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s'
+        Building C object CMakeFiles/cmTC_e8169.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_e8169.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s/CheckFunctionExists.c
+        Linking C executable cmTC_e8169
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8169.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_e8169.dir/CheckFunctionExists.c.o -o cmTC_e8169 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-8OjR5s'
         
       exitCode: 0
   -
@@ -981,8 +981,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -992,17 +992,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d2825/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d2825.dir/build.make CMakeFiles/cmTC_d2825.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W'
-        Building C object CMakeFiles/cmTC_d2825.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_d2825.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W/CheckFunctionExists.c
-        Linking C executable cmTC_d2825
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2825.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_d2825.dir/CheckFunctionExists.c.o -o cmTC_d2825 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-q66f0W'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5db5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e5db5.dir/build.make CMakeFiles/cmTC_e5db5.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et'
+        Building C object CMakeFiles/cmTC_e5db5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_e5db5.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et/CheckFunctionExists.c
+        Linking C executable cmTC_e5db5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5db5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_e5db5.dir/CheckFunctionExists.c.o -o cmTC_e5db5 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-jk34et'
         
       exitCode: 0
   -
@@ -1019,8 +1019,8 @@ events:
       - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
       - "CMakeLists.txt:12 (find_package)"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1030,17 +1030,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2228a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2228a.dir/build.make CMakeFiles/cmTC_2228a.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt'
-        Building C object CMakeFiles/cmTC_2228a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_2228a.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt/CheckFunctionExists.c
-        Linking C executable cmTC_2228a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2228a.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_2228a.dir/CheckFunctionExists.c.o -o cmTC_2228a  -lICE 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-9U0HJt'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b34e4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b34e4.dir/build.make CMakeFiles/cmTC_b34e4.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo'
+        Building C object CMakeFiles/cmTC_b34e4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b34e4.dir/CheckFunctionExists.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo/CheckFunctionExists.c
+        Linking C executable cmTC_b34e4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b34e4.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b34e4.dir/CheckFunctionExists.c.o -o cmTC_b34e4  -lICE 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-S1DJCo'
         
       exitCode: 0
   -
@@ -1059,8 +1059,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1070,17 +1070,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5585/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e5585.dir/build.make CMakeFiles/cmTC_e5585.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ'
-        Building C object CMakeFiles/cmTC_e5585.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e5585.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ/test_mpi.c
-        Linking C executable cmTC_e5585
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5585.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e5585.dir/test_mpi.c.o -o cmTC_e5585  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-6NPYwQ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4a60/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4a60.dir/build.make CMakeFiles/cmTC_b4a60.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU'
+        Building C object CMakeFiles/cmTC_b4a60.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b4a60.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU/test_mpi.c
+        Linking C executable cmTC_b4a60
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4a60.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b4a60.dir/test_mpi.c.o -o cmTC_b4a60  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-B3XflU'
         
       exitCode: 0
   -
@@ -1099,8 +1099,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1110,17 +1110,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9da10/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9da10.dir/build.make CMakeFiles/cmTC_9da10.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN'
-        Building C object CMakeFiles/cmTC_9da10.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_9da10.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN/test_mpi.c
-        Linking C executable cmTC_9da10
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9da10.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_9da10.dir/test_mpi.c.o -o cmTC_9da10  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-wbdAnN'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_52504/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_52504.dir/build.make CMakeFiles/cmTC_52504.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq'
+        Building C object CMakeFiles/cmTC_52504.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_52504.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq/test_mpi.c
+        Linking C executable cmTC_52504
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52504.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_52504.dir/test_mpi.c.o -o cmTC_52504  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-LiAmYq'
         
       exitCode: 0
   -
@@ -1139,8 +1139,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1150,17 +1150,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05134/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_05134.dir/build.make CMakeFiles/cmTC_05134.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm'
-        Building C object CMakeFiles/cmTC_05134.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_05134.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm/test_mpi.c
-        Linking C executable cmTC_05134
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05134.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_05134.dir/test_mpi.c.o -o cmTC_05134  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-UXcAwm'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_645a5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_645a5.dir/build.make CMakeFiles/cmTC_645a5.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7'
+        Building C object CMakeFiles/cmTC_645a5.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_645a5.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7/test_mpi.c
+        Linking C executable cmTC_645a5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_645a5.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_645a5.dir/test_mpi.c.o -o cmTC_645a5  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-DuC5V7'
         
       exitCode: 0
   -
@@ -1179,8 +1179,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw"
-      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw"
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1190,17 +1190,221 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw'
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7e11/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e7e11.dir/build.make CMakeFiles/cmTC_e7e11.dir/build
-        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw'
-        Building C object CMakeFiles/cmTC_e7e11.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e7e11.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw/test_mpi.c
-        Linking C executable cmTC_e7e11
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7e11.dir/link.txt --verbose=1
-        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e7e11.dir/test_mpi.c.o -o cmTC_e7e11  /usr/lib/x86_64-linux-gnu/libmpi.so 
-        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-kOxKQw'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_abfe6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_abfe6.dir/build.make CMakeFiles/cmTC_abfe6.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T'
+        Building C object CMakeFiles/cmTC_abfe6.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_abfe6.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T/test_mpi.c
+        Linking C executable cmTC_abfe6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abfe6.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_abfe6.dir/test_mpi.c.o -o cmTC_abfe6  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-EKlG4T'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc0ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dc0ca.dir/build.make CMakeFiles/cmTC_dc0ca.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6'
+        Building C object CMakeFiles/cmTC_dc0ca.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_dc0ca.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6/test_mpi.c
+        Linking C executable cmTC_dc0ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0ca.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_dc0ca.dir/test_mpi.c.o -o cmTC_dc0ca  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-bvEeZ6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_64480/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_64480.dir/build.make CMakeFiles/cmTC_64480.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl'
+        Building C object CMakeFiles/cmTC_64480.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_64480.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl/test_mpi.c
+        Linking C executable cmTC_64480
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64480.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_64480.dir/test_mpi.c.o -o cmTC_64480  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-3iUnKl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c1ae5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c1ae5.dir/build.make CMakeFiles/cmTC_c1ae5.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd'
+        Building C object CMakeFiles/cmTC_c1ae5.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c1ae5.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd/test_mpi.c
+        Linking C executable cmTC_c1ae5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1ae5.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c1ae5.dir/test_mpi.c.o -o cmTC_c1ae5  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-HUs5bd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a378/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a378.dir/build.make CMakeFiles/cmTC_6a378.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF'
+        Building C object CMakeFiles/cmTC_6a378.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6a378.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF/test_mpi.c
+        Linking C executable cmTC_6a378
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a378.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_6a378.dir/test_mpi.c.o -o cmTC_6a378  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-h6X7bF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0"
+      binary: "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_439cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_439cf.dir/build.make CMakeFiles/cmTC_439cf.dir/build
+        gmake[1]: Entering directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0'
+        Building C object CMakeFiles/cmTC_439cf.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_439cf.dir/test_mpi.c.o -c /home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0/test_mpi.c
+        Linking C executable cmTC_439cf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_439cf.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_439cf.dir/test_mpi.c.o -o cmTC_439cf  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/CMakeFiles/CMakeScratch/TryCompile-mGT9Y0'
         
       exitCode: 0
 ...

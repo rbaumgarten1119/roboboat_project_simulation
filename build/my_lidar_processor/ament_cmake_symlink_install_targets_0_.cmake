@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/lidar_processor_3d_node" "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor/pcd_publisher" "TARGETS" "lidar_processor_3d_node" "pcd_publisher" "DESTINATION" "lib/my_lidar_processor")

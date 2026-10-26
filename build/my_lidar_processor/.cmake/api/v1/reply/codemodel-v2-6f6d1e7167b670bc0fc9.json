@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00e29bc5fedfd21d596a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_lidar_processor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_processor_3d_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_processor_3d_node-f397ac65e1a2b6cc24af.json",
+					"name" : "lidar_processor_3d_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_lidar_processor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_lidar_processor_uninstall-dd4b0ee299dd7d118e14.json",
+					"name" : "my_lidar_processor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_publisher-07a3b0243f9bc2b7c23f.json",
+					"name" : "pcd_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-444b5acbbcd02c472980.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/phoenixautonomy/ros2_ws/build/my_lidar_processor",
+		"source" : "/home/phoenixautonomy/ros2_ws/sam-cpu-lidar-branch/roboboat-lidar/src/my_lidar_processor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

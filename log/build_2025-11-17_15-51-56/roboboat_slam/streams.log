@@ -1,0 +1,17 @@
+[0.400s] Invoking command in '/home/phoenixautonomy/ros2_ws/build/roboboat_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/phoenixautonomy/ros2_ws/build/roboboat_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phoenixautonomy/ros2_ws/install/roboboat_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/phoenixautonomy/ros2_ws/build/roboboat_slam/build --no-deps symlink_data
+[0.565s] running develop
+[0.658s] running egg_info
+[0.667s] writing roboboat_slam.egg-info/PKG-INFO
+[0.667s] writing dependency_links to roboboat_slam.egg-info/dependency_links.txt
+[0.667s] writing entry points to roboboat_slam.egg-info/entry_points.txt
+[0.667s] writing requirements to roboboat_slam.egg-info/requires.txt
+[0.668s] writing top-level names to roboboat_slam.egg-info/top_level.txt
+[0.686s] reading manifest file 'roboboat_slam.egg-info/SOURCES.txt'
+[0.686s] writing manifest file 'roboboat_slam.egg-info/SOURCES.txt'
+[0.696s] running build_ext
+[0.696s] Creating /home/phoenixautonomy/ros2_ws/install/roboboat_slam/lib/python3.12/site-packages/roboboat-slam.egg-link (link to .)
+[0.696s] Installing thruster_to_odom script to /home/phoenixautonomy/ros2_ws/install/roboboat_slam/lib/roboboat_slam
+[0.696s] 
+[0.696s] Installed /home/phoenixautonomy/ros2_ws/build/roboboat_slam
+[0.696s] running symlink_data
+[0.711s] Invoked command in '/home/phoenixautonomy/ros2_ws/build/roboboat_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/phoenixautonomy/ros2_ws/build/roboboat_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phoenixautonomy/ros2_ws/install/roboboat_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/phoenixautonomy/ros2_ws/build/roboboat_slam/build --no-deps symlink_data

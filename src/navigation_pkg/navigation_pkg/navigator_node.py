@@ -34,9 +34,9 @@ class LidarGapGPSNavigator(Node):
 
         # === Control parameters ===
         self.safe_distance = 2.5     # meters
-        self.max_thrust = 1.0
-        self.turn_gain = 0.02
-        self.forward_gain = 0.8
+        self.max_thrust = 50.0
+        self.turn_gain = 0.1
+        self.forward_gain = 10.0
 
         # === State ===
         self.position = None

@@ -84,8 +84,11 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=[
                 "ros2", "run", "ros_gz_bridge", "parameter_bridge",
-                "/roboboatmodel/roboboat/joint/left_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double",
-                "/roboboatmodel/roboboat/joint/right_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double"
+                "/roboboatmodel/roboboat/joint/back_left_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double",
+                "/roboboatmodel/roboboat/joint/back_right_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double",
+                "/roboboatmodel/roboboat/joint/front_left_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double",
+                "/roboboatmodel/roboboat/joint/front_right_thruster_joint/cmd_thrust@std_msgs/msg/Float64@gz.msgs.Double"
+
             ],
             output="screen"
         ),
